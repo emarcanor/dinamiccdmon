@@ -1,5 +1,5 @@
 #!/bin/bash
-USUARIO= #usuario asignado a dominio a verificar
+USUARIO= #usuario asignado a dominio a actualizar
 PASSMD5= #password de usuario asignado a dominio
 HOST= #dominio a verificar
 IP_DNS_ONLINE=$(host $HOST dinamic1.cdmon.net | grep -m1 $HOST | awk {'print $4'})
